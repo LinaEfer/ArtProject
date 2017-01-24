@@ -7,6 +7,8 @@ Desktop.ini
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
+ArtProject/App_Data/
+packages/
 
 # Windows Installer files
 *.cab

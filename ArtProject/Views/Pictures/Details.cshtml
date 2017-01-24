@@ -1,0 +1,50 @@
+﻿@model ArtProject.Models.Picture
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Детальная информация</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Художник
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Painter.FirstName)
+            @Html.DisplayFor(model => model.Painter.LastName)
+        </dd>
+
+        <dt>
+            Наименование картины
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            Год написания
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RealiseDate)
+        </dd>
+
+        <dt>
+            Детали
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.PictureID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

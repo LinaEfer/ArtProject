@@ -1,0 +1,67 @@
+﻿@model PagedList.IPagedList<ArtProject.Models.Picture>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "Картинная галерея";
+}
+
+<h2>Картинная галерея</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+@using (Html.BeginForm("Index", "Picture", FormMethod.Get))
+{
+    <p>
+        Поиск: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+        <input type="submit" value="Найти" />
+    </p>
+}
+<table class="table">
+    <tr>
+        <th>
+            Автор
+        </th>
+        <th>
+            Наименование картины
+        </th>
+        <th>
+            Год написания
+        </th>
+        <th>
+            Детали
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Painter.FirstName)
+            @Html.DisplayFor(modelItem => item.Painter.LastName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RealiseDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.PictureID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.PictureID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.PictureID })
+        </td>
+    </tr>
+}
+
+</table>
+
+<br />
+Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+@Html.PagedListPager(Model, page => Url.Action("Index", new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))

@@ -1,0 +1,43 @@
+﻿@model ArtProject.Models.Painter
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Детальная информация</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Имя
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+
+        <dt>
+            Фамилия
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+    </dl>
+   
+    <div class="display-label">
+       <h3> Картины художника </h3>
+    </div>
+    <dl>
+        @foreach (var item in Model.Pictures)
+           {
+             <dt>
+                 @Html.DisplayFor(modelItem => item.Title)
+             </dt>
+           }
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.PainterID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
