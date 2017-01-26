@@ -212,17 +212,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201701232039440_InitialCreate.cs" />
-    <Compile Include="Migrations\201701232039440_InitialCreate.Designer.cs">
-      <DependentUpon>201701232039440_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201701232054596_InitialChanges.cs" />
-    <Compile Include="Migrations\201701232054596_InitialChanges.Designer.cs">
-      <DependentUpon>201701232054596_InitialChanges.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201701241432455_MaxLengthOnTitle.cs" />
-    <Compile Include="Migrations\201701241432455_MaxLengthOnTitle.Designer.cs">
-      <DependentUpon>201701241432455_MaxLengthOnTitle.cs</DependentUpon>
+    <Compile Include="Migrations\201701261051043_ChangeDataBase.cs" />
+    <Compile Include="Migrations\201701261051043_ChangeDataBase.Designer.cs">
+      <DependentUpon>201701261051043_ChangeDataBase.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -317,14 +309,8 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201701232039440_InitialCreate.resx">
-      <DependentUpon>201701232039440_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201701232054596_InitialChanges.resx">
-      <DependentUpon>201701232054596_InitialChanges.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201701241432455_MaxLengthOnTitle.resx">
-      <DependentUpon>201701241432455_MaxLengthOnTitle.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201701261051043_ChangeDataBase.resx">
+      <DependentUpon>201701261051043_ChangeDataBase.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
