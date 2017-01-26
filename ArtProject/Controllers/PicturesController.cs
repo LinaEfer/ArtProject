@@ -104,6 +104,7 @@ namespace ArtProject.Controllers
         }
 
         // GET: Pictures/Edit/5
+        [Authorize(Roles = "admin")]
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -124,6 +125,7 @@ namespace ArtProject.Controllers
         // сведения см. в статье http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "admin")]
         public ActionResult Edit([Bind(Include = "PictureID,PainterID,Title,RealiseDate,Description")] Picture picture)
         {
             if (ModelState.IsValid)
@@ -137,6 +139,7 @@ namespace ArtProject.Controllers
         }
 
         // GET: Pictures/Delete/5
+        [Authorize(Roles = "admin")]
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -154,6 +157,7 @@ namespace ArtProject.Controllers
         // POST: Pictures/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "admin")]
         public ActionResult DeleteConfirmed(int id)
         {
             Picture picture = db.Pictures.Find(id);

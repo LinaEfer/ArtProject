@@ -7,13 +7,13 @@ namespace ArtProject.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class ChangeDataBase : IMigrationMetadata
+    public sealed partial class ImageStocke : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(ChangeDataBase));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(ImageStocke));
         
         string IMigrationMetadata.Id
         {
-            get { return "201701261051043_ChangeDataBase"; }
+            get { return "201701261445453_ImageStocke"; }
         }
         
         string IMigrationMetadata.Source

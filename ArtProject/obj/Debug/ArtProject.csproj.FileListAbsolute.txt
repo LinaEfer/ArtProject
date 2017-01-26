@@ -80,7 +80,6 @@ D:\Lille_1\IFI\dotNET\Project_IFI_NET\ArtProject\ArtProject\ArtProject\bin\Micro
 D:\Lille_1\IFI\dotNET\Project_IFI_NET\ArtProject\ArtProject\ArtProject\obj\Debug\ArtProject.csprojResolveAssemblyReference.cache
 D:\Lille_1\IFI\dotNET\Project_IFI_NET\ArtProject\ArtProject\ArtProject\obj\Debug\ArtProject.dll
 D:\Lille_1\IFI\dotNET\Project_IFI_NET\ArtProject\ArtProject\ArtProject\obj\Debug\ArtProject.pdb
-D:\Lille_1\IFI\dotNET\Project_IFI_NET\ArtProject\ArtProject\ArtProject\obj\Debug\ArtProject.csproj.GenerateResource.Cache
 D:\Lille_1\IFI\dotNET\Project_IFI_NET\ArtProject\ArtProject\ArtProject\bin\PagedList.dll
 D:\Lille_1\IFI\dotNET\Project_IFI_NET\ArtProject\ArtProject\ArtProject\bin\PagedList.Mvc.dll
 D:\Lille_1\IFI\dotNET\Project_IFI_NET\ArtProject\ArtProject\ArtProject\bin\PagedList.xml
@@ -211,4 +210,5 @@ D:\Lille_1\IFI\dotNET\Project_IFI_NET\ArtProjectV2.0\ArtProject\ArtProject\obj\D
 D:\Lille_1\IFI\dotNET\Project_IFI_NET\ArtProjectV2.0\ArtProject\ArtProject\obj\Debug\ArtProject.pdb
 D:\Lille_1\IFI\dotNET\Project_IFI_NET\ArtProjectV2.0\ArtProject\ArtProject\obj\Debug\ArtProject.Migrations.ChangeDataBase.resources
 D:\Lille_1\IFI\dotNET\Project_IFI_NET\ArtProjectV2.0\ArtProject\ArtProject\obj\Debug\ArtProject.csproj.GenerateResource.Cache
-D:\Lille_1\IFI\dotNET\Project_IFI_NET\ArtProject\ArtProject\ArtProject\obj\Debug\ArtProject.Migrations.ChangeDataBase.resources
+D:\Lille_1\IFI\dotNET\Project_IFI_NET\ArtProject\ArtProject\ArtProject\obj\Debug\ArtProject.Migrations.ImageStocke.resources
+D:\Lille_1\IFI\dotNET\Project_IFI_NET\ArtProject\ArtProject\ArtProject\obj\Debug\ArtProject.csproj.GenerateResource.Cache
