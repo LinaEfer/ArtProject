@@ -19,18 +19,18 @@ namespace ArtProject.Migrations
         {
 
 
-          /*  if (!context.Users.Any(u => u.UserName == "balou"))
+            if (!context.Users.Any(u => u.UserName == "balou@mail.com"))
             {
                 var roleStore = new RoleStore<IdentityRole>(context);
                 var roleManager = new RoleManager<IdentityRole>(roleStore);
                 var store = new UserStore<ApplicationUser>(context);
                 var userManager = new UserManager<ApplicationUser>(store);
-                var user = new ApplicationUser { UserName = "balou", Email = "balou@mail.com" };
+                var user = new ApplicationUser { UserName = "balou@mail.com" };
 
                 userManager.Create(user, "password");
                 roleManager.Create(new IdentityRole { Name = "admin" });
                 userManager.AddToRole(user.Id, "admin");
-            } */
+            } 
 
         }
     } 

@@ -212,3 +212,4 @@ D:\Lille_1\IFI\dotNET\Project_IFI_NET\ArtProjectV2.0\ArtProject\ArtProject\obj\D
 D:\Lille_1\IFI\dotNET\Project_IFI_NET\ArtProjectV2.0\ArtProject\ArtProject\obj\Debug\ArtProject.csproj.GenerateResource.Cache
 D:\Lille_1\IFI\dotNET\Project_IFI_NET\ArtProject\ArtProject\ArtProject\obj\Debug\ArtProject.Migrations.ImageStocke.resources
 D:\Lille_1\IFI\dotNET\Project_IFI_NET\ArtProject\ArtProject\ArtProject\obj\Debug\ArtProject.csproj.GenerateResource.Cache
+D:\Lille_1\IFI\dotNET\Project_IFI_NET\ArtProject\ArtProject\ArtProject\obj\Debug\ArtProject.Migrations.Admin.resources

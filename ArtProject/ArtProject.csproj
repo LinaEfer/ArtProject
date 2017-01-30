@@ -216,6 +216,10 @@
     <Compile Include="Migrations\201701261445453_ImageStocke.Designer.cs">
       <DependentUpon>201701261445453_ImageStocke.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201701270847594_Admin.cs" />
+    <Compile Include="Migrations\201701270847594_Admin.Designer.cs">
+      <DependentUpon>201701270847594_Admin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -311,6 +315,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201701261445453_ImageStocke.resx">
       <DependentUpon>201701261445453_ImageStocke.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701270847594_Admin.resx">
+      <DependentUpon>201701270847594_Admin.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

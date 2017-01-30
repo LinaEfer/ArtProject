@@ -3,10 +3,10 @@
 <link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
 
 @{
-    ViewBag.Title = "Картинная галерея";
+    ViewBag.Title = "Picture gallery";
 }
 
-<h2>Картинная галерея</h2>
+<h2>Picture gallery</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -15,23 +15,23 @@
 @using (Html.BeginForm("Index", "Picture", FormMethod.Get))
 {
     <p>
-        Поиск: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
-        <input type="submit" value="Найти" />
+        @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+        <input type="submit" value="Search" />
     </p>
 }
 <table class="table">
     <tr>
         <th>
-            Автор
+            Author
         </th>
         <th>
-            Наименование картины
+            Title
         </th>
         <th>
-            Год написания
+            Year
         </th>
         <th>
-            Детали
+            Details
         </th>
         <th></th>
     </tr>

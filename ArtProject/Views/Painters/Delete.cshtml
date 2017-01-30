@@ -1,14 +1,14 @@
 ﻿@model ArtProject.Models.Painter
 
 @{
-    ViewBag.Title = "Удаление записи";
+    ViewBag.Title = "Delete";
 }
 
-<h2>Удаление записи</h2>
+<h2>Delete the entry</h2>
 <p class="error">@ViewBag.ErrorMessage</p>
-<h3>Вы уверены, что Вы хотите удалить запись?</h3>
+<h3>Are you sure you want to delete the entry?</h3>
 <div>
-    <h4>Художник</h4>
+    <h4>Painter</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
@@ -33,7 +33,7 @@
         @Html.AntiForgeryToken()
 
         <div class="form-actions no-color">
-            <input type="submit" value="Удалить" class="btn btn-default" /> |
+            <input type="submit" value="Delete" class="btn btn-default" /> |
             @Html.ActionLink("Back to List", "Index")
         </div>
     }
