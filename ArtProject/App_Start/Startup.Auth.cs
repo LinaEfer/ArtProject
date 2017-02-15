@@ -55,13 +55,13 @@ namespace ArtProject
             //   consumerSecret: "");
 
             app.UseFacebookAuthentication(
-               appId: "978400845626349",
-               appSecret: "771d25f858281f1b30546ecf35d4c0c5");
+               appId: "<replace>",
+               appSecret: "<replace with yours>");
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
-                ClientId = "46912903297-9p4jsp4ejvd0eq82o8ej6g213umar8it.apps.googleusercontent.com",
-                ClientSecret = "dk95zTAlA_6EeJhYFE-JSRMi"
+                ClientId = "<replace>",
+                ClientSecret = "<replace with yours>"
             });
         }
     }
